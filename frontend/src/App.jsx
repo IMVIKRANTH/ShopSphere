@@ -5,7 +5,7 @@ import Navbar from "./comp/Navbar";
 import HomePage from "./comp/HomePage";
 import CreatePage from "./comp/CreatePage";
 import { lightTheme, darkTheme } from "./theme";
-import "./App.css"; // Import the CSS for layout and grid
+import "./app.css"; // Import the CSS for layout and grid
 
 function App() {
   const [colorMode, setColorMode] = useState("light");
