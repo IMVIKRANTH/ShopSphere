@@ -1,0 +1,36 @@
+// src/theme.js
+export const lightTheme = {
+  background: "#f3f4f6",
+  text: "#222",
+  cardBg: "#fff",
+  cardText: "#222",
+  buttonBg: "#2563eb",
+  buttonText: "#fff",
+  buttonHoverBg: "#1d4ed8",
+  inputBg: "#f6f7fa",
+  inputText: "#222",
+  inputBorder: "#d1d5db",
+  navbarBg: "#fff",
+  navbarText: "#222",
+  modalBg: "#fff",
+  priceBg: "#ffd814",
+  priceText: "#222",
+};
+
+export const darkTheme = {
+  background: "#181a20",
+  text: "#eee",
+  cardBg: "#232946",
+  cardText: "#eee",
+  buttonBg: "#6366f1",
+  buttonText: "#fff",
+  buttonHoverBg: "#4338ca",
+  inputBg: "#232946",
+  inputText: "#eee",
+  inputBorder: "#393e4c",
+  navbarBg: "#232946",
+  navbarText: "#eee",
+  modalBg: "#232946",
+  priceBg: "#facc15",
+  priceText: "#232946",
+};
