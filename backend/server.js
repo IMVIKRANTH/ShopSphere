@@ -12,6 +12,9 @@ app.use(express.json()) ; //middleware to allow json data to be sent to the serv
 
 const __dirname = path.resolve() ;
 
+// to ensure the visibility of products from the database when browser is opened
+app.use("/api/products" , productRoutes) ;
+
 if (process.env.NODE_ENV === "production") {
     // Serve static files from the React app
     app.use(express.static(path.join(__dirname, "frontend", "dist")));
@@ -21,8 +24,6 @@ if (process.env.NODE_ENV === "production") {
         res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"));
     });
 }
-
-app.use("/api/products" , productRoutes) ;
 
 const PORT = process.env.PORT || 3000 ;
 
